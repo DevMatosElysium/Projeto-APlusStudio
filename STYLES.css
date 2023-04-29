@@ -2,5 +2,58 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
+.barra-navegacao {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, .15);
+    -webkit-backdrop-filter: blur(15px);
+
+    position: fixed;
+    width: 100vw;
+    height: 116px;
+}
+
+.logo-superior {
+    display: inline-block;
+
+    width: 120px;
+    height: 34px;
+
+    margin: 41px 0 41px 120px;
+}
+
+.menu-navegacao {
+    display: inline-block;
+ 
+    font-weight: 500;
+    color: black;
+
+    margin: 41px 0 41px 800px;
+
+}
+
+.home {
+    margin-left: 60px;
+}
+
+.what {
+    margin-left: 60px;
+}
+
+.service {
+    margin-left: 60px;
+}
+
+.project {
+    margin-left: 60px;
+}
+
+.blog {
+    margin-left: 60px;
+}
+
+.contact {
+    margin-left: 60px;
+}
